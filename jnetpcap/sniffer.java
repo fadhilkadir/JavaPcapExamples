@@ -75,7 +75,7 @@ public class sniffer {
       if(args.length > 0){
         sniffer test = new sniffer(args[0]);
       } else {
-        System.out.println("Usage: java ClassicPcapExample [device name]");
+        System.out.println("Usage: java sniffer [device name]");
         System.out.println("Available network devices on your machine:");
         i = 0;  
         for (PcapIf device : alldevs) {  
